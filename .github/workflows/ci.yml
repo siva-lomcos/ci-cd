@@ -20,6 +20,9 @@ jobs:
           echo "Checking project files..."
           pwd
           ls -la
+          whoami
+          id
+          date
 
       - name: Validate README
         run: |
